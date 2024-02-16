@@ -1,7 +1,7 @@
 bert_path: pretrained_models/chinese-roberta-wwm-ext-large
 cnhubert_base_path: pretrained_models/chinese-hubert-base
 default_speaker: sanyueqi
-device: cpu
+device: cuda
 hz: 32000
 is_half: true
 keep_wav: false
