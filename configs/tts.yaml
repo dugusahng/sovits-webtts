@@ -1,6 +1,6 @@
 bert_path: pretrained_models/chinese-roberta-wwm-ext-large
 cnhubert_base_path: pretrained_models/chinese-hubert-base
-default_speaker: sanyueqi
+default_speaker: dugushang
 device: cpu
 hz: 32000
 is_half: true
@@ -17,4 +17,10 @@ speaker:
     sovits_path: models/Nana7mi/Nana7mi_e47_s2444.pth
     text: 怎么点不开你得私信列表啊
     text_lang: zh
+  dugushang:
+    gpt_path: models/dugushang/dugushang-e25.ckpt    
+    ref_wav_path: audio/dugushang/ljb_0.wav
+    sovits_path: models/dugushang/dugushang_e18_s144.pth
+    text: 1.0的应用电脑是一种应用最广泛的能源电能预期的能源相比具有突出的优点
+    text_lang: zh 
 tmp_dir: ./TEMP
